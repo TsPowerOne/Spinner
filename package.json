@@ -1,9 +1,9 @@
 {
-  "name": "@tspower/template",
+  "name": "@tspower/fileloader",
   "version": "1.0.0",
-  "description": "template per la generazione di nuovi moduli typescript",
-  "main": "./lib/template.js",
-  "types": "./lib/template.d.ts",
+  "description": "fileloader per la generazione di nuovi moduli typescript",
+  "main": "./lib/fileloader.js",
+  "types": "./lib/fileloader.d.ts",
   "directories": {
     "doc": "docs",
     "lib": "lib",
