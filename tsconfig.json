@@ -17,8 +17,8 @@
         "es5"
       ]
     },
-      "files": [
-        "src/**/*.ts"
+      "include": [
+        "./src/**/*.ts"
       ],
       
     "exclude":[
