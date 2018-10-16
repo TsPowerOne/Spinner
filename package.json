@@ -1,7 +1,7 @@
 {
   "name": "@tspower/fileloader",
   "version": "1.0.0",
-  "description": "fileloader per la generazione di nuovi moduli typescript",
+  "description": "Simply file upload button",
   "main": "./lib/fileloader.js",
   "types": "./lib/fileloader.d.ts",
   "directories": {
