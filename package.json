@@ -1,7 +1,7 @@
 {
   "name": "@tspower/template",
   "version": "1.0.0",
-  "description": "descrizione template",
+  "description": "template per la generazione di nuovi moduli typescript",
   "main": "./lib/template.js",
   "types": "./lib/template.d.ts",
   "directories": {
