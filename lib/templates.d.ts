@@ -1,0 +1,1 @@
+export declare const sfere = "<div class=\"spinner\">\n                        <div class=\"double-bounce1\"></div>\n                        <div class=\"double-bounce2\"></div>\n                        </div>";
