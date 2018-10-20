@@ -8,9 +8,9 @@ import * as t from './templates';
 
         constructor(){
 
-        this.template = t["cubi"];
-        this.html = htmlParse(t["cubi"]);
-
+            let temp = `<div class="sk-cube-container" >${t["cubi"]}</div>`;
+            this.template =temp;
+            this.html = htmlParse(temp);
             cubi.default;
         }
     }

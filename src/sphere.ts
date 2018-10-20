@@ -5,8 +5,9 @@ import * as t from './templates';
         html:HTMLElement;
         template:string;
         constructor(){
-            this.template = t["sfere"];
-            this.html = htmlParse(t["sfere"]);
+            let temp = `<div class="spinner-container" >${t["sfere"]}</div>`;
+            this.template =temp;
+            this.html = htmlParse(temp);
             sfere.default;
         }
     }

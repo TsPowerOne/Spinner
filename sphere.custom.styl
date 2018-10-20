@@ -1,6 +1,9 @@
 $spinnerColor ?= null
 $spinnerHeight ?= null
 $spinnerWidth ?= null
+if $spinnerHeight isnt null 
+    $diffHeight  = ($spinnerHeight/2) + ($spinnerHeight/4)
+
 
 if $spinnerColor isnt null
     .double-bounce1, .double-bounce2
@@ -16,6 +19,7 @@ if $spinnerWidth isnt null
 if $spinnerHeight isnt null
     .spinner
         height: $spinnerHeight
+        margin-top: "calc(50vh - %s)" %$diffHeight
 
 
     

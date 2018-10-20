@@ -1,6 +1,10 @@
 $spinnerColor ?= null
 $spinnerHeight ?= null
 $spinnerWidth ?= null
+if $spinnerHeight isnt null 
+    $diffHeight  = ($spinnerHeight/2) + ($spinnerHeight/4)
+
+
 
 if $spinnerColor isnt null
     .sk-cube-grid .sk-cube
@@ -16,5 +20,8 @@ if $spinnerWidth isnt null
 if $spinnerHeight isnt null
     .sk-cube-grid
         height: $spinnerHeight
+        margin-top: "calc(50vh - %s)" %$diffHeight
+
+    
 
 

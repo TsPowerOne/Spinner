@@ -5,8 +5,9 @@ var sfere = require("./sphere.styl");
 var t = require("./templates");
 var Spin_Sphere = /** @class */ (function () {
     function Spin_Sphere() {
-        this.template = t["sfere"];
-        this.html = core_1.htmlParse(t["sfere"]);
+        var temp = "<div class=\"spinner-container\" >" + t["sfere"] + "</div>";
+        this.template = temp;
+        this.html = core_1.htmlParse(temp);
         sfere.default;
     }
     return Spin_Sphere;

@@ -5,8 +5,9 @@ var cubi = require("./cube.styl");
 var t = require("./templates");
 var Spin_Cube = /** @class */ (function () {
     function Spin_Cube() {
-        this.template = t["cubi"];
-        this.html = core_1.htmlParse(t["cubi"]);
+        var temp = "<div class=\"sk-cube-container\" >" + t["cubi"] + "</div>";
+        this.template = temp;
+        this.html = core_1.htmlParse(temp);
         cubi.default;
     }
     return Spin_Cube;
