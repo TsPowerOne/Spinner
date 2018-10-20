@@ -1,0 +1,20 @@
+$spinnerColor ?= null
+$spinnerHeight ?= null
+$spinnerWidth ?= null
+
+if $spinnerColor isnt null
+    .sk-cube-grid .sk-cube
+        background-color: $spinnerColor;
+
+
+if $spinnerWidth isnt null
+    .sk-cube-grid
+        width: $spinnerWidth
+
+
+
+if $spinnerHeight isnt null
+    .sk-cube-grid
+        height: $spinnerHeight
+
+

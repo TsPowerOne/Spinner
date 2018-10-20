@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@tspower/core");
-var cubi = require("./cubi.styl");
+var cubi = require("./cube.styl");
 var t = require("./templates");
 var Spin_Cube = /** @class */ (function () {
     function Spin_Cube() {

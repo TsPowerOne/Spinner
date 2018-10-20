@@ -1,7 +1,6 @@
 import {htmlParse} from '@tspower/core';
-import * as sfere from './sfere.styl';
+import * as sfere from './sphere.styl';
 import * as t from './templates';
-
     export class Spin_Sphere{
         html:HTMLElement;
         template:string;

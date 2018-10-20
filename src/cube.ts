@@ -1,7 +1,6 @@
-import { htmlParse } from '@tspower/core';
-import * as cubi from './cubi.styl';
+import { htmlParse, log} from '@tspower/core';
+import * as cubi from './cube.styl';
 import * as t from './templates';
-
     export class Spin_Cube {
 
         html:HTMLElement;
@@ -11,6 +10,7 @@ import * as t from './templates';
 
         this.template = t["cubi"];
         this.html = htmlParse(t["cubi"]);
+
             cubi.default;
         }
     }
