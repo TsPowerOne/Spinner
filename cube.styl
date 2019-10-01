@@ -13,8 +13,9 @@ $diffHeight = ($spinnerHeight/2) + ($spinnerHeight/4)
 .sk-cube-grid {
   width: $spinnerWidth
   height: $spinnerHeight
-  margin: auto;
-  margin-top: "calc(50vh - %s)" %$diffHeight
+  margin: auto
+  top: 50%
+  transform: translateY(-50%)
 }
 
 .sk-cube-grid .sk-cube {

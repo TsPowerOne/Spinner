@@ -12,9 +12,10 @@ $diffHeight = ($spinnerHeight/2) + ($spinnerHeight/4)
 .spinner {
   width: $spinnerWidth
   height: $spinnerHeight
-  position: relative;
-  margin: auto;
-  margin-top: "calc(50vh - %s)" %$diffHeight
+  position: relative
+  margin: auto
+  top: 50%
+  transform: translateY(-50%)
 }
 
 .double-bounce1, .double-bounce2 {
