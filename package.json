@@ -1,6 +1,6 @@
 {
   "name": "@tspower/spinner",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Beautifull spinners for wait data!",
   "main": "./sphere.js",
   "types": "./sphere.d.ts",
